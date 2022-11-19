@@ -1,9 +1,10 @@
 import React, { useState } from "react";
-import NavControl from "./NavControl";
+import Navigation from "./Navigation";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
 import Resume from "./pages/Resume";
+import Footer from "./Footer";
 
 export default function PageContainer() {
   const [currentPage, setCurrentPage] = useState("About");
@@ -25,11 +26,12 @@ export default function PageContainer() {
 
   return (
     <div>
-      <NavControl
+      <Navigation
         currentPage={currentPage}
         handlePageChange={handlePageChange}
       />
       {renderPage()}
+      {Footer()}
     </div>
   );
 }
