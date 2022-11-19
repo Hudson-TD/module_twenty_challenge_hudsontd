@@ -1,6 +1,6 @@
 import React from "react";
 
-function Navigation({ handlePageChange }) {
+export default function Navigation({ handlePageChange }) {
   return (
     <ul>
       <li>
@@ -26,5 +26,3 @@ function Navigation({ handlePageChange }) {
     </ul>
   );
 }
-
-export default Navigation;

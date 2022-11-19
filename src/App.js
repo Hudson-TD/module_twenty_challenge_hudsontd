@@ -1,10 +1,12 @@
 import "./App.css";
-import PageContainer from "./components/PageContainer";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
 
 function App() {
   return (
     <>
-      <PageContainer />
+      <Header />
+      <Footer />
     </>
   );
 }
