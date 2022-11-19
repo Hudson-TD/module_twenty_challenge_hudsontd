@@ -1,28 +1,33 @@
 import React from "react";
+import { Tabs, TabList, TabPanels, Tab, TabPanel } from "@chakra-ui/react";
 
 export default function Navigation({ handlePageChange }) {
   return (
-    <ul>
-      <li>
-        <a href="#about" onClick={() => handlePageChange("About")}>
-          About
-        </a>
-      </li>
-      <li>
-        <a href="#portfolio" onClick={() => handlePageChange("Portfolio")}>
-          Portfolio
-        </a>
-      </li>
-      <li>
-        <a href="#contact" onClick={() => handlePageChange("Contact")}>
-          Contact
-        </a>
-      </li>
-      <li>
-        <a href="#resume" onClick={() => handlePageChange("Resume")}>
-          Resume
-        </a>
-      </li>
-    </ul>
+    <>
+      <Tabs variant="soft-rounded" colorScheme="green">
+        <TabList>
+          <Tab>
+            <a href="#about" onClick={() => handlePageChange("About")}>
+              About Me
+            </a>
+          </Tab>
+          <Tab>
+            <a href="#portfolio" onClick={() => handlePageChange("Portfolio")}>
+              Portfolio
+            </a>
+          </Tab>
+          <Tab>
+            <a href="#contact" onClick={() => handlePageChange("Contact")}>
+              Contact
+            </a>
+          </Tab>
+          <Tab>
+            <a href="#resume" onClick={() => handlePageChange("Resume")}>
+              Resume
+            </a>
+          </Tab>
+        </TabList>
+      </Tabs>
+    </>
   );
 }

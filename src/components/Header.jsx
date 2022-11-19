@@ -1,4 +1,6 @@
 import React, { useState } from "react";
+import { Heading, Center, Box } from "@chakra-ui/react";
+
 import Navigation from "./Navigation";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
@@ -24,12 +26,23 @@ export default function Header() {
   return (
     <>
       <header>
-        Example Text to simulate Header
-        <Navigation
-          currentPage={currentPage}
-          handlePageChange={handlePageChange}
-        />
+        <Box m={10}>
+          <Center>
+            <Heading as="h2" size="2xl" noOfLines={1}>
+              Tyler Dale Hudson
+            </Heading>
+          </Center>
+        </Box>
+        <Box>
+          <Center>
+            <Navigation
+              currentPage={currentPage}
+              handlePageChange={handlePageChange}
+            />
+          </Center>
+        </Box>
       </header>
+
       <main>{renderPage()}</main>
     </>
   );
