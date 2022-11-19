@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import NavControl from "./NavControl";
 import About from "./pages/About";
 import Portfolio from "./pages/Portfolio";
 import Contact from "./pages/Contact";
@@ -20,5 +21,15 @@ export default function PageContainer() {
     return <Resume />;
   };
 
-  return <div>{renderPage()}</div>;
+  const handlePageChange = (page) => setCurrentPage(page);
+
+  return (
+    <div>
+      <NavControl
+        currentPage={currentPage}
+        handlePageChange={handlePageChange}
+      />
+      {renderPage()}
+    </div>
+  );
 }
