@@ -7,10 +7,7 @@ import Footer from "./components/Footer";
 function App() {
   return (
     <>
-      <Navigation />
-      <Header />
-      <Project />
-      <Footer />
+    Bing
     </>
   );
 }
