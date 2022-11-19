@@ -4,7 +4,10 @@ export default function Footer() {
   return (
     <footer>
         <div>
-            Footer
+            Lets connect:
+
+            LinkedIn
+            Github
         </div>
     </footer>
   )
