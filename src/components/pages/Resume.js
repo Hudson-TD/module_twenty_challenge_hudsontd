@@ -27,11 +27,34 @@ export default function Resume() {
           <AccordionItem>
             <h2>
               <AccordionButton _expanded={{ bg: "purple.500", color: "white" }}>
+                <Box flex="1">Languages</Box>
+                <AccordionIcon />
+              </AccordionButton>
+            </h2>
+            <AccordionPanel pb={4}>
+              <ul>
+                <li>JavaScript</li>
+              </ul>
+            </AccordionPanel>
+          </AccordionItem>
+          <AccordionItem>
+            <h2>
+              <AccordionButton _expanded={{ bg: "purple.500", color: "white" }}>
                 <Box flex="1">Front-End</Box>
                 <AccordionIcon />
               </AccordionButton>
             </h2>
-            <AccordionPanel pb={4}>Todo</AccordionPanel>
+            <AccordionPanel pb={4}>
+              <ul>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>React</li>
+                <br />
+                <li>Bootstrap</li>
+                <li>Chakra UI</li>
+                <li>Tailwind CSS</li>
+              </ul>
+            </AccordionPanel>
           </AccordionItem>
 
           <AccordionItem>
@@ -43,11 +66,16 @@ export default function Resume() {
             </h2>
             <AccordionPanel pb={4}>
               <ul>
-                <li>test1</li>
-                <li>test2</li>
+                <li>NodeJS</li>
+                <li>Express</li>
+                <li>RESTful API</li>
+                <br />
+                <li>Model View Controller (MVC)</li>
+                <li>Progressive Web Applications (PWA)</li>
               </ul>
             </AccordionPanel>
           </AccordionItem>
+
           <AccordionItem>
             <h2>
               <AccordionButton _expanded={{ bg: "purple.500", color: "white" }}>
@@ -55,7 +83,15 @@ export default function Resume() {
                 <AccordionIcon />
               </AccordionButton>
             </h2>
-            <AccordionPanel pb={4}>Todo</AccordionPanel>
+            <AccordionPanel pb={4}>
+              <ul>
+                <li>MySQL</li>
+                <li>Sequelize</li>
+                <br />
+                <li>MongoDB</li>
+                <li>Mongoose</li>
+              </ul>
+            </AccordionPanel>
           </AccordionItem>
         </Accordion>
       </Container>
