@@ -4,7 +4,7 @@ import { Heading, Center, Box, Image, Text, Badge } from "@chakra-ui/react";
 export default function About() {
   return (
     <>
-      <Box bg="white">
+      <Box bg="tomato">
         <Center>
           <Image
             borderRadius="full"
@@ -22,21 +22,17 @@ export default function About() {
             Aspiring Full-Stack Developer
           </Heading>
         </Center>
-      </Box>
 
-      <Box m={1} mb={12}>
-        <Center>
-          <Text fontSize="lg">
+          <Center>
             <Badge ml="1" fontSize="0.8em" colorScheme="purple">
               Currently looking for Opportunities!
             </Badge>
-          </Text>
-        </Center>
+          </Center>
       </Box>
 
       <Box>
         <Center>
-          <Text fontSize="2xl" w={750}>
+          <Text fontSize="2xl" w={750} mt={12}>
             Thank you for taking the time to visit my website! I am a driven and
             motivated individual looking to break into a career in web
             development. I am an avid PC enthusiast (gaming & building) and love
