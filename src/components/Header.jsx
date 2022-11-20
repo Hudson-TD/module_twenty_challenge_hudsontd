@@ -25,23 +25,25 @@ export default function Header() {
   };
   return (
     <>
-      <header>
-        <Box m={10}>
-          <Center>
-            <Heading as="h2" size="2xl" noOfLines={1}>
-              Tyler Hudson
-            </Heading>
-          </Center>
-        </Box>
-        <Box>
-          <Center>
-            <Navigation
-              currentPage={currentPage}
-              handlePageChange={handlePageChange}
-            />
-          </Center>
-        </Box>
-      </header>
+      <Box p={10} bg="grey">
+        <header>
+          <Box m={10}>
+            <Center>
+              <Heading as="h2" size="2xl" noOfLines={1}>
+                Tyler Hudson
+              </Heading>
+            </Center>
+          </Box>
+          <Box>
+            <Center>
+              <Navigation
+                currentPage={currentPage}
+                handlePageChange={handlePageChange}
+              />
+            </Center>
+          </Box>
+        </header>
+      </Box>
 
       <main>{renderPage()}</main>
     </>

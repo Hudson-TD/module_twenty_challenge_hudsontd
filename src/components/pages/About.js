@@ -4,15 +4,17 @@ import { Heading, Center, Box, Image, Text, Badge } from "@chakra-ui/react";
 export default function About() {
   return (
     <>
-      <Center>
-        <Image
-          borderRadius="full"
-          boxSize="250px"
-          src="sticker.png"
-          alt="Tyler Dale Hudson"
-          mb={8}
-        />
-      </Center>
+      <Box bg="white">
+        <Center>
+          <Image
+            borderRadius="full"
+            boxSize="250px"
+            src="sticker.png"
+            alt="Tyler Dale Hudson"
+            mb={8}
+          />
+        </Center>
+      </Box>
 
       <Box m={1} mb={1}>
         <Center>
@@ -24,20 +26,35 @@ export default function About() {
 
       <Box m={1} mb={12}>
         <Center>
-          <Text fontSize="xl">
-            <Badge ml="1" fontSize="0.8em" colorScheme="green">
-              Looking for Opportunities! ChatIcon
+          <Text fontSize="lg">
+            <Badge ml="1" fontSize="0.8em" colorScheme="purple">
+              Currently looking for Opportunities!
             </Badge>
           </Text>
         </Center>
       </Box>
 
-      <Text fontSize="2xl">
-        I have a Bachelors degree in Business from the University of South
-        Carolina where I majored in Marketing. I am currently particpating in
-        the Georgia Tech Full-Stack coding bootcamp and I am on track to finish
-        and recieve my certification in December of 2022.
-      </Text>
+      <Box>
+        <Center>
+          <Text fontSize="2xl" w={750}>
+            Thank you for taking the time to visit my website! I am a driven and
+            motivated individual looking to break into a career in web
+            development. I am an avid PC enthusiast (gaming & building) and love
+            learning new things.
+            <br />
+            <Box>
+              <Center>-</Center>
+            </Box>
+            <br />I have a bachelors degree in business from the University of
+            South Carolina where I majored in marketing. I am currently
+            particpating in the Georgia Tech Full-Stack coding bootcamp and I am
+            on track to finish and recieve my certification in December of 2022.
+            In addition to this prospective certification I have 4+ years of
+            experience in the tech space primarily in a business operations
+            capacity.
+          </Text>
+        </Center>
+      </Box>
     </>
   );
 }
