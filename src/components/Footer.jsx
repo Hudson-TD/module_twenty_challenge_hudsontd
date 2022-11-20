@@ -18,10 +18,24 @@ export default function Footer() {
         <Box>
           <Center>
             <HStack>
-              <Button colorScheme="purple" leftIcon={<FaGithubSquare />}>
+              <Button
+                type="submit"
+                onClick={() => {
+                  window.open("https://github.com/Hudson-TD");
+                }}
+                colorScheme="purple"
+                leftIcon={<FaGithubSquare />}
+              >
                 Github
               </Button>
-              <Button colorScheme="purple" leftIcon={<FaLinkedin />}>
+              <Button
+                type="submit"
+                onClick={() => {
+                  window.open("https://www.linkedin.com/in/tylerhudson1996/");
+                }}
+                colorScheme="purple"
+                leftIcon={<FaLinkedin />}
+              >
                 LinkedIn
               </Button>
             </HStack>
