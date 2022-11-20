@@ -4,7 +4,14 @@ import { Heading, Center, Box, Image, Text, Badge } from "@chakra-ui/react";
 export default function About() {
   return (
     <>
-      <Box bg="tomato">
+      <Box my={6}>
+        <Center>
+          <Heading as="h3" size="lg" noOfLines={1}>
+            Nice to meet you!
+          </Heading>
+        </Center>
+      </Box>
+      <Box>
         <Center>
           <Image
             borderRadius="full"
@@ -23,11 +30,11 @@ export default function About() {
           </Heading>
         </Center>
 
-          <Center>
-            <Badge ml="1" fontSize="0.8em" colorScheme="purple">
-              Currently looking for Opportunities!
-            </Badge>
-          </Center>
+        <Center>
+          <Badge mt={2} ml="1" fontSize="0.8em" colorScheme="purple">
+            Currently looking for Opportunities!
+          </Badge>
+        </Center>
       </Box>
 
       <Box>

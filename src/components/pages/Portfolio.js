@@ -20,7 +20,7 @@ import {
 export default function Portfolio() {
   return (
     <>
-      <Box>
+      <Box my={6}>
         <Center>
           <Heading as="h3" size="lg" noOfLines={1}>
             Check out some of my work:

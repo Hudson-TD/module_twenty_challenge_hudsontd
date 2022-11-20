@@ -25,7 +25,7 @@ export default function Header() {
   };
   return (
     <>
-      <Box p={10} bg="white">
+      <Box p={10} bg="green.100" border="8px" borderColor="grey">
         <header>
           <Box m={10}>
             <Center>
