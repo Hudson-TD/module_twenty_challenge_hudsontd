@@ -198,7 +198,12 @@ export default function Portfolio() {
       <Flex direction="row" justify="space-evenly">
         <Card maxW="sm" mt={4}>
           <CardBody>
-            <Image src="MeowWoof.gif" alt="placeholder" borderRadius="lg" />
+            <Image
+              src="MeowWoof.gif"
+              alt="placeholder"
+              borderRadius="lg"
+              class="cardImage"
+            />
             <Stack mt="6" spacing="3">
               <Heading size="md">MeowWoof</Heading>
               <Text>
@@ -226,6 +231,7 @@ export default function Portfolio() {
               <Button
                 variant="solid"
                 colorScheme="purple"
+                type="submit"
                 onClick={() => {
                   window.open("https://shielded-harbor-87736.herokuapp.com/");
                 }}
@@ -235,6 +241,7 @@ export default function Portfolio() {
               <Button
                 variant="ghost"
                 colorScheme="purple"
+                type="submit"
                 onClick={() => {
                   window.open("https://github.com/TeryKing/Project-MeowWoof");
                 }}
@@ -248,33 +255,53 @@ export default function Portfolio() {
         <Card maxW="sm" mt={4}>
           <CardBody>
             <Image
-              src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=400"
+              src="JSQuizGame.png"
               alt="placeholder"
               borderRadius="lg"
+              class="cardImage"
             />
             <Stack mt="6" spacing="3">
-              <Heading size="md"> Just Another Text Editor (J.A.T.E)</Heading>
+              <Heading size="md"> JavaScript Coding Quiz Game</Heading>
               <Text>
-                J.A.T.E is a progressive web application allowing the user to
-                store notes or code snippets via IndexedDB. The app functions
-                with or without an internet connection and has the ability to be
-                downloaded.
+                This quiz will test your knowledge of Javascript. You will have
+                60 seconds to complete a 5 question quiz. For each question you
+                answer incorrectly your alloted time will be reduced by 10
+                seconds. This quiz is over when all questions are answered or
+                when the alloted time reaches 0.
               </Text>
               <Text fontSize="2xl">Technologies Used:</Text>
               <UnorderedList>
-                <ListItem>Example</ListItem>
-                <ListItem>Example</ListItem>
-                <ListItem>Example</ListItem>
+                <ListItem>JavaScript</ListItem>
+                <ListItem>HTML</ListItem>
+                <ListItem>Vanilla CSS</ListItem>
               </UnorderedList>
             </Stack>
           </CardBody>
           <Divider />
           <CardFooter>
             <ButtonGroup spacing="2">
-              <Button variant="solid" colorScheme="purple">
+              <Button
+                variant="solid"
+                colorScheme="purple"
+                type="submit"
+                onClick={() => {
+                  window.open(
+                    "https://hudson-td.github.io/module_four_challenge_hudsontd/"
+                  );
+                }}
+              >
                 Visit App
               </Button>
-              <Button variant="ghost" colorScheme="purple">
+              <Button
+                variant="ghost"
+                colorScheme="purple"
+                type="submit"
+                onClick={() => {
+                  window.open(
+                    "https://github.com/Hudson-TD/module_four_challenge_hudsontd"
+                  );
+                }}
+              >
                 Repository
               </Button>
             </ButtonGroup>
@@ -287,6 +314,7 @@ export default function Portfolio() {
               src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=400"
               alt="placeholder"
               borderRadius="lg"
+              class="cardImage"
             />
             <Stack mt="6" spacing="3">
               <Heading size="md"> Just Another Text Editor (J.A.T.E)</Heading>
