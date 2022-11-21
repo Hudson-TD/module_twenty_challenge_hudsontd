@@ -27,7 +27,6 @@ export default function Portfolio() {
           </Heading>
         </Center>
       </Box>
-      {/* Row 2 (two cards) */}
       <Flex direction="row" justify="space-evenly">
         <Card maxW="sm" mt={4}>
           <CardBody>
@@ -199,34 +198,47 @@ export default function Portfolio() {
       <Flex direction="row" justify="space-evenly">
         <Card maxW="sm" mt={4}>
           <CardBody>
-            <Image
-              src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=400"
-              alt="placeholder"
-              borderRadius="lg"
-            />
+            <Image src="MeowWoof.gif" alt="placeholder" borderRadius="lg" />
             <Stack mt="6" spacing="3">
-              <Heading size="md"> Just Another Text Editor (J.A.T.E)</Heading>
+              <Heading size="md">MeowWoof</Heading>
               <Text>
-                J.A.T.E is a progressive web application allowing the user to
-                store notes or code snippets via IndexedDB. The app functions
-                with or without an internet connection and has the ability to be
-                downloaded.
+                This application is designed to help with pet shelters of any
+                size. The major functions of the application include a search
+                function where animals can be filtered by a variety of
+                characteristics, a volunteers dashboard where volunteers can
+                choose from volunteer-less pets to assist, and a surrender
+                functionality where users can surrender any pet for which they
+                feel they cannot adequately care.
               </Text>
               <Text fontSize="2xl">Technologies Used:</Text>
               <UnorderedList>
-                <ListItem>Example</ListItem>
-                <ListItem>Example</ListItem>
-                <ListItem>Example</ListItem>
+                <ListItem>Node.js</ListItem>
+                <ListItem>JQuery UI</ListItem>
+                <ListItem>Tailwind CSS</ListItem>
+                <ListItem>sendgrid</ListItem>
+                <ListItem>Sequelize</ListItem>
               </UnorderedList>
             </Stack>
           </CardBody>
           <Divider />
           <CardFooter>
             <ButtonGroup spacing="2">
-              <Button variant="solid" colorScheme="purple">
+              <Button
+                variant="solid"
+                colorScheme="purple"
+                onClick={() => {
+                  window.open("https://shielded-harbor-87736.herokuapp.com/");
+                }}
+              >
                 Visit App
               </Button>
-              <Button variant="ghost" colorScheme="purple">
+              <Button
+                variant="ghost"
+                colorScheme="purple"
+                onClick={() => {
+                  window.open("https://github.com/TeryKing/Project-MeowWoof");
+                }}
+              >
                 Repository
               </Button>
             </ButtonGroup>
