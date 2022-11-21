@@ -23,7 +23,7 @@ export default function Portfolio() {
       <Box my={6}>
         <Center>
           <Heading as="h3" size="lg" noOfLines={1}>
-            Check out some of my work:
+            Check out some of my personal work and contributions:
           </Heading>
         </Center>
       </Box>
@@ -32,9 +32,10 @@ export default function Portfolio() {
         <Card maxW="sm" mt={4}>
           <CardBody>
             <Image
-              src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=400"
+              src="JATE.gif"
               alt="placeholder"
               borderRadius="lg"
+              class="cardImage"
             />
             <Stack mt="6" spacing="3">
               <Heading size="md"> Just Another Text Editor (J.A.T.E)</Heading>
@@ -46,19 +47,37 @@ export default function Portfolio() {
               </Text>
               <Text fontSize="2xl">Technologies Used:</Text>
               <UnorderedList>
-                <ListItem>Example</ListItem>
-                <ListItem>Example</ListItem>
-                <ListItem>Example</ListItem>
+                <ListItem>JavaScript</ListItem>
+                <ListItem>Webpack</ListItem>
+                <ListItem>IndexedDB</ListItem>
+                <ListItem>Node.js</ListItem>
+                <ListItem>Express</ListItem>
               </UnorderedList>
             </Stack>
           </CardBody>
           <Divider />
           <CardFooter>
             <ButtonGroup spacing="2">
-              <Button variant="solid" colorScheme="purple">
+              <Button
+                variant="solid"
+                colorScheme="purple"
+                type="submit"
+                onClick={() => {
+                  window.open("https://secret-citadel-27288.herokuapp.com/");
+                }}
+              >
                 Visit App
               </Button>
-              <Button variant="ghost" colorScheme="purple">
+              <Button
+                variant="ghost"
+                colorScheme="purple"
+                type="submit"
+                onClick={() => {
+                  window.open(
+                    "https://github.com/Hudson-TD/module_nineteen_challenge_hudsontd"
+                  );
+                }}
+              >
                 Repository
               </Button>
             </ButtonGroup>
@@ -68,33 +87,53 @@ export default function Portfolio() {
         <Card maxW="sm" mt={4}>
           <CardBody>
             <Image
-              src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=400"
+              src="https://images.pexels.com/photos/1565982/pexels-photo-1565982.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="placeholder"
               borderRadius="lg"
+              class="cardImage"
             />
             <Stack mt="6" spacing="3">
-              <Heading size="md"> Just Another Text Editor (J.A.T.E)</Heading>
+              <Heading size="md"> Aldente</Heading>
               <Text>
-                J.A.T.E is a progressive web application allowing the user to
-                store notes or code snippets via IndexedDB. The app functions
-                with or without an internet connection and has the ability to be
-                downloaded.
+                This application is designed to help anyone and everyone looking
+                for a simple and organized way to search for and save recipes.
+                It features four different pages, including a home page, a
+                results page, a recipe page, and "My Cookbook", which displays
+                the user's saved recipes.
               </Text>
               <Text fontSize="2xl">Technologies Used:</Text>
               <UnorderedList>
-                <ListItem>Example</ListItem>
-                <ListItem>Example</ListItem>
-                <ListItem>Example</ListItem>
+                <ListItem>JQuery UI</ListItem>
+                <ListItem>Moment.js</ListItem>
+                <ListItem>TailwindCSS</ListItem>
+                <ListItem>TheMealDB API</ListItem>
+                <ListItem>TheCocktailDB API</ListItem>
               </UnorderedList>
             </Stack>
           </CardBody>
           <Divider />
           <CardFooter>
             <ButtonGroup spacing="2">
-              <Button variant="solid" colorScheme="purple">
+              <Button
+                variant="solid"
+                colorScheme="purple"
+                type="submit"
+                onClick={() => {
+                  window.open(
+                    "https://crhinesmith.github.io/alDente/index.html"
+                  );
+                }}
+              >
                 Visit App
               </Button>
-              <Button variant="ghost" colorScheme="purple">
+              <Button
+                variant="ghost"
+                colorScheme="purple"
+                type="submit"
+                onClick={() => {
+                  window.open("https://github.com/crhinesmith/alDente");
+                }}
+              >
                 Repository
               </Button>
             </ButtonGroup>

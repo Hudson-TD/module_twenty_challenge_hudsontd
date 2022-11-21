@@ -1,4 +1,10 @@
-img {
+.cardImage {
+  width: 350px;
+  height: 200px;
+  border-radius: 2%;
+}
+
+#avatarBackground {
   background-image: url("https://img.freepik.com/free-vector/minimal-diagonal-zigzag-pattern-design_1017-15351.jpg?w=826&t=st=1668998920~exp=1668999520~hmac=5bd202c8f01aa1ade497455bbd30f9acf3f0e69d595584106a00fcc8d956d9ad");
 }
 

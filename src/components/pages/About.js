@@ -14,6 +14,7 @@ export default function About() {
       <Box>
         <Center>
           <Image
+            id="avatarBackground"
             borderRadius="full"
             boxSize="250px"
             src="sticker.png"
