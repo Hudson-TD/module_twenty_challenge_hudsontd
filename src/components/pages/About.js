@@ -55,7 +55,8 @@ export default function About() {
             am on track to finish and recieve my certification in December of
             2022. In addition to this prospective certification, I have 4+ years
             of experience in the tech space, primarily in a technical support
-            capacity.
+            capacity. I want to take the next step and acquire the skills needed
+            to help build and support complex web applications.
           </Text>
         </Center>
       </Box>

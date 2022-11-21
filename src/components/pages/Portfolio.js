@@ -143,33 +143,51 @@ export default function Portfolio() {
         <Card maxW="sm" mt={4}>
           <CardBody>
             <Image
-              src="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=400"
+              src="https://images.pexels.com/photos/1162251/pexels-photo-1162251.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"
               alt="placeholder"
               borderRadius="lg"
+              class="cardImage"
             />
             <Stack mt="6" spacing="3">
-              <Heading size="md"> Just Another Text Editor (J.A.T.E)</Heading>
+              <Heading size="md"> Weather Forecast Dashboard</Heading>
               <Text>
-                J.A.T.E is a progressive web application allowing the user to
-                store notes or code snippets via IndexedDB. The app functions
-                with or without an internet connection and has the ability to be
-                downloaded.
+                This is a responsive API driven web app that displays locational
+                weather data along with a five day forecast. City searches are
+                stored locally for quick access in future sessions.
               </Text>
               <Text fontSize="2xl">Technologies Used:</Text>
               <UnorderedList>
-                <ListItem>Example</ListItem>
-                <ListItem>Example</ListItem>
-                <ListItem>Example</ListItem>
+                <ListItem>JavaScript</ListItem>
+                <ListItem>Tailwind CSS</ListItem>
+                <ListItem>Open Weather API</ListItem>
               </UnorderedList>
             </Stack>
           </CardBody>
           <Divider />
           <CardFooter>
             <ButtonGroup spacing="2">
-              <Button variant="solid" colorScheme="purple">
+              <Button
+                variant="solid"
+                colorScheme="purple"
+                type="submit"
+                onClick={() => {
+                  window.open(
+                    "https://hudson-td.github.io/module_six_challenge_hudsontd/"
+                  );
+                }}
+              >
                 Visit App
               </Button>
-              <Button variant="ghost" colorScheme="purple">
+              <Button
+                variant="ghost"
+                colorScheme="purple"
+                type="submit"
+                onClick={() => {
+                  window.open(
+                    "https://github.com/Hudson-TD/module_six_challenge_hudsontd"
+                  );
+                }}
+              >
                 Repository
               </Button>
             </ButtonGroup>
