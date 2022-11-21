@@ -1,3 +1,11 @@
+img {
+  background-image: url("https://img.freepik.com/free-vector/minimal-diagonal-zigzag-pattern-design_1017-15351.jpg?w=826&t=st=1668998920~exp=1668999520~hmac=5bd202c8f01aa1ade497455bbd30f9acf3f0e69d595584106a00fcc8d956d9ad");
+}
+
+#headerBg {
+  background-image: url("https://img.freepik.com/free-photo/abstract-luxury-blur-dark-grey-black-gradient-used-as-background-studio-wall-display-your-products-plain-studio-background_1258-54444.jpg?w=1380&t=st=1668999483~exp=1669000083~hmac=3a6ba4d649c49874313b0d00d406014a11e1222d068214a0aad563f84dd3c53e");
+}
+
 li {
   text-decoration: none;
   list-style: none;

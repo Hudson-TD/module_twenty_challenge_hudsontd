@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Heading, Center, Box, Divider } from "@chakra-ui/react";
+import { Heading, Center, Box } from "@chakra-ui/react";
 
 import Navigation from "./Navigation";
 import About from "./pages/About";
@@ -25,7 +25,7 @@ export default function Header() {
   };
   return (
     <>
-      <Box p={10} bg="green.100" border="8px" borderColor="grey">
+      <Box p={10} id="headerBg" border="2px" borderColor="grey">
         <header>
           <Box m={10}>
             <Center>
@@ -42,7 +42,6 @@ export default function Header() {
               />
             </Center>
           </Box>
-          <Divider orientation="horizontal" mb={2} mt={4} />
         </header>
       </Box>
 

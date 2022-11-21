@@ -50,10 +50,10 @@ export default function About() {
             </Box>
             <br />I have a bachelors degree in business from the University of
             South Carolina where I majored in marketing. I am currently
-            particpating in the Georgia Tech Full-Stack coding bootcamp and I am
-            on track to finish and recieve my certification in December of 2022.
-            In addition to this prospective certification I have 4+ years of
-            experience in the tech space primarily in a business operations
+            participating in the Georgia Tech Full-Stack coding bootcamp and I
+            am on track to finish and recieve my certification in December of
+            2022. In addition to this prospective certification, I have 4+ years
+            of experience in the tech space, primarily in a technical support
             capacity.
           </Text>
         </Center>
