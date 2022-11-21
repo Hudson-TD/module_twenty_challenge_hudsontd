@@ -8,12 +8,33 @@ import {
   Box,
   Center,
   Container,
+  Divider,
   Heading,
 } from "@chakra-ui/react";
 
 export default function Resume() {
   return (
     <>
+      <Box mt={8}>
+        <Center>
+          <Heading as="h3" size="lg" noOfLines={1}>
+            Resume
+          </Heading>
+        </Center>
+      </Box>
+
+      <Container mt={8} mb={20}>
+        <Center>
+          <div id="resumeBtn" className="bottom-spacing">
+            <a href={require("../../assets/placeholder.pdf")} download>
+              <h4>Click here to download my resume!</h4>
+            </a>
+          </div>
+        </Center>
+      </Container>
+
+      <Divider orientation="horizontal" mb={2} mt={4} />
+
       <Box my={6}>
         <Center>
           <Heading as="h3" size="lg" noOfLines={1}>

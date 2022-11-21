@@ -1,4 +1,16 @@
 li {
-    text-decoration: none;
-    list-style: none;
+  text-decoration: none;
+  list-style: none;
+}
+
+#resumeBtn {
+  border: 1px solid white;
+  padding: 10px 45px;
+  background-color: #805ad5;
+  color: white;
+}
+
+#resumeBtn :hover {
+  color: orange;
+  font-weight: bold;
 }
