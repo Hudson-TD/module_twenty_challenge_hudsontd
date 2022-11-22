@@ -1,5 +1,5 @@
 import React from "react";
-import { Heading, Center, Box, Image, Text, Badge, useMediaQuery  } from "@chakra-ui/react";
+import { Heading, Center, Box, Image, Text, Badge  } from "@chakra-ui/react";
 
 export default function About() {
 
@@ -42,7 +42,7 @@ export default function About() {
 
       <Box>
         <Center>
-          <Text fontSize="2xl" w={750} mt={12}>
+          <Text id="aboutMeText" fontSize="2xl" w={750} mt={12} align="center">
             Thank you for taking the time to visit my website! I am a driven and
             motivated individual looking to break into a career in web
             development. I am an avid PC enthusiast (gaming & building) and love

@@ -11,7 +11,7 @@ import {
   useColorModeValue,
   VStack,
   Center,
-  Heading
+  Heading,
 } from "@chakra-ui/react";
 import { MdOutlineEmail } from "react-icons/md";
 import { BsPerson } from "react-icons/bs";
