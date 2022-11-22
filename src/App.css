@@ -28,3 +28,40 @@ li {
   color: orange;
   font-weight: bold;
 }
+
+.cardGroup {
+  display: flex;
+  justify-content: space-around;
+}
+
+@media screen and (max-width: 1160px) {
+  .cardGroup {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+  }
+}
+
+@media screen and (max-width: 1000px) {
+  #nameHeader {
+    font-size: 4rem;
+  }
+}
+
+@media screen and (max-width: 670) {
+  #nameHeader {
+    font-size: 3rem;
+  }
+}
+
+@media screen and (max-width: 575px) {
+  #nameHeader {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 380) {
+  #nameHeader {
+    font-size: 1rem;
+  }
+}

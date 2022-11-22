@@ -2,7 +2,6 @@ import React from "react";
 import {
   Heading,
   Center,
-  Flex,
   Box,
   Card,
   CardBody,
@@ -23,12 +22,12 @@ export default function Portfolio() {
       <Box my={6}>
         <Center>
           <Heading as="h3" size="lg" noOfLines={1}>
-            Check out some of my personal work and contributions:
+           Work and contributions:
           </Heading>
         </Center>
       </Box>
 
-      <Flex direction="row" justify="space-evenly">
+      <div class="cardGroup">
         <Card maxW="sm" mt={4}>
           <CardBody>
             <Image
@@ -193,9 +192,9 @@ export default function Portfolio() {
             </ButtonGroup>
           </CardFooter>
         </Card>
-      </Flex>
+      </div>
 
-      <Flex direction="row" justify="space-evenly">
+      <div class="cardGroup">
         <Card maxW="sm" mt={4}>
           <CardBody>
             <Image
@@ -365,7 +364,7 @@ export default function Portfolio() {
             </ButtonGroup>
           </CardFooter>
         </Card>
-      </Flex>
+      </div>
     </>
   );
 }

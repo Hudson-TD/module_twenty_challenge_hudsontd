@@ -1,7 +1,9 @@
 import React from "react";
-import { Heading, Center, Box, Image, Text, Badge } from "@chakra-ui/react";
+import { Heading, Center, Box, Image, Text, Badge, useMediaQuery  } from "@chakra-ui/react";
 
 export default function About() {
+
+
   return (
     <>
       <Box my={6}>
