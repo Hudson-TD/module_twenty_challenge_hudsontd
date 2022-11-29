@@ -2,7 +2,7 @@
 
 ## Description
 
-In this challenge I worked to re-create my developer portfolio using the skills we have aquired throughout the course so far.
+In this challenge I worked to re-create my developer portfolio using the skills we have acquired during the course.
 
 ## Table of Contents 
 
