@@ -257,7 +257,7 @@ export default function Portfolio() {
               src="JSQuizGame.PNG"
               alt="JavaScript Quiz Homepage"
               borderRadius="lg"
-              class="JavaScript quiz website"
+              class="cardImage"
             />
             <Stack mt="6" spacing="3">
               <Heading size="md"> JavaScript Coding Quiz Game</Heading>
