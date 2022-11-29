@@ -254,8 +254,8 @@ export default function Portfolio() {
         <Card maxW="sm" mt={4}>
           <CardBody>
             <Image
-              src="JSQuizGame.png"
-              alt="placeholder"
+              src="JSQuizGame.PNG"
+              alt="JavaScript Quiz Homepage"
               borderRadius="lg"
               class="JavaScript quiz website"
             />
@@ -310,7 +310,7 @@ export default function Portfolio() {
         <Card maxW="sm" mt={4}>
           <CardBody>
             <Image
-              src="NoteTaker.png"
+              src="NoteTaker.PNG"
               alt="Express.js note taking website"
               borderRadius="lg"
               class="cardImage"
