@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/module_twenty_challenge_hudsontd/static/css/main.66043949.css",
-    "main.js": "/module_twenty_challenge_hudsontd/static/js/main.2d968dbe.js",
+    "main.js": "/module_twenty_challenge_hudsontd/static/js/main.ff358d8f.js",
     "static/media/placeholder.pdf": "/module_twenty_challenge_hudsontd/static/media/placeholder.13d1dad3fae8a8c05c3d.pdf",
     "index.html": "/module_twenty_challenge_hudsontd/index.html",
     "main.66043949.css.map": "/module_twenty_challenge_hudsontd/static/css/main.66043949.css.map",
-    "main.2d968dbe.js.map": "/module_twenty_challenge_hudsontd/static/js/main.2d968dbe.js.map"
+    "main.ff358d8f.js.map": "/module_twenty_challenge_hudsontd/static/js/main.ff358d8f.js.map"
   },
   "entrypoints": [
     "static/css/main.66043949.css",
-    "static/js/main.2d968dbe.js"
+    "static/js/main.ff358d8f.js"
   ]
 }
