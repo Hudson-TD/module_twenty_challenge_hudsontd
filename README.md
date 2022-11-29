@@ -1,8 +1,8 @@
-# Progressive Web Applications (PWA) Challenge: Text Editor
+# React Challenge: React Portfolio
 
 ## Description
 
-In this chaallenge I worked to re-create my developer portfolio using the skills we have aquired throughout the course so far.
+In this challenge I worked to re-create my developer portfolio using the skills we have aquired throughout the course so far.
 
 ## Table of Contents 
 
